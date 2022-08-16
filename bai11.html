@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>Tiền thu nhập trong 1 tháng</td>
+          <td><input type="number" id="money" oninput="formula()" /></td>
+        </tr>
+        <tr>
+          <td>Pay Taxes</td>
+          <td><input type="text" id="payTaxes" readonly /></td>
+        </tr>
+        <tr>
+          <td><button onclick="formula()">Check</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script src="thue_bai11.js"></script>
+</html>
